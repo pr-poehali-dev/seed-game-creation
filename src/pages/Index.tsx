@@ -55,13 +55,13 @@ const Index = () => {
       <section className="pt-24 pb-16 px-4">
         <div className="container mx-auto text-center">
           <div className="flex justify-center items-center space-x-4 mb-8">
-            <FloatingElement delay={0}>
+            <FloatingElement delay={0} price={25}>
               <div className="text-6xl">🌱</div>
             </FloatingElement>
-            <FloatingElement delay={0.5}>
+            <FloatingElement delay={0.5} price={50}>
               <div className="text-5xl">🌻</div>
             </FloatingElement>
-            <FloatingElement delay={1}>
+            <FloatingElement delay={1} price={35}>
               <div className="text-6xl">🌿</div>
             </FloatingElement>
           </div>
